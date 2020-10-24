@@ -1,0 +1,6 @@
+15:22:53.629 [main] INFO  selectingTwoCheckboxesTest - Opening page: http://the-internet.herokuapp.com/
+15:22:59.158 [main] INFO  selectingTwoCheckboxesTest - Page opened!
+15:22:59.158 [main] INFO  selectingTwoCheckboxesTest - Clicking Checkboxes link on Welcome Page
+15:23:00.125 [main] INFO  selectingTwoCheckboxesTest - Checking all unchecked checkboxes
+15:23:00.203 [main] INFO  selectingTwoCheckboxesTest - Verifying that all checkboxes are checked
+15:23:00.230 [main] INFO  webapp-test-project - [Test selectingTwoCheckboxesTest passed]
