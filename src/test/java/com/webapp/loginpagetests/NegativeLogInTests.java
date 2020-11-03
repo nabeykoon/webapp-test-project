@@ -1,7 +1,6 @@
 package com.webapp.loginpagetests;
 
 import com.web.core.base.TestUtilities;
-
 import com.web.core.util.CsvDataProviders;
 import com.webapp.pages.LoginPage;
 import com.webapp.pages.WelcomePage;

@@ -5,10 +5,11 @@ import com.web.core.base.TestUtilities;
 import com.webapp.pages.FileUploaderPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import com.webapp.dataProviders.DataProviders;
 
 public class UploadTests extends TestUtilities {
 
-	@Test(dataProvider = "files")
+	@Test(dataProvider = "files", dataProviderClass = DataProviders.class)
 	public void fileUploadTest(int no, String fileName) {
 		log.info("Starting fileUploadTest #" + no + " for " + fileName);
 
@@ -21,7 +22,7 @@ public class UploadTests extends TestUtilities {
 		// Select file
 		fileUploaderPage.selectFile(fileName);
 		// Push upload button
-		eyesManager.validateWindow (MatchLevel.CONTENT, false);
+		//eyesManager.validateWindow (MatchLevel.CONTENT, false);
 		fileUploaderPage.pushUploadButton();
 		sleep(2000);
 

@@ -1,2 +1,3 @@
-15:23:00.232 [main] INFO  selectingTwoCheckboxesTest - Close driver
-15:23:00.837 [main] INFO  webapp-test-project - [ALL webapp-test-project FINISHED]
+01:16:43.292 [main] INFO  webapp-test-project - [Test fileUploadTest passed]
+01:16:43.294 [main] INFO  fileUploadTest - Close driver
+01:16:43.881 [main] INFO  webapp-test-project - [ALL webapp-test-project FINISHED]

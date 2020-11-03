@@ -1,0 +1,7 @@
+01:16:37.417 [main] INFO  fileUploadTest - Driver Hash code of fileUploadTest 331216192
+01:16:37.418 [main] INFO  fileUploadTest - Opening page: http://the-internet.herokuapp.com/upload
+01:16:40.715 [main] INFO  fileUploadTest - Page opened!
+01:16:40.715 [main] INFO  fileUploadTest - Selecting 'text.txt' file from Files folder
+01:16:40.810 [main] INFO  fileUploadTest - File selected
+01:16:40.811 [main] INFO  fileUploadTest - Clicking on upload button
+01:16:43.292 [main] INFO  fileUploadTest - Uploaded files: text.txt

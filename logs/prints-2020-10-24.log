@@ -1,6 +1,8 @@
-15:22:53.629 [main] INFO  selectingTwoCheckboxesTest - Opening page: http://the-internet.herokuapp.com/
-15:22:59.158 [main] INFO  selectingTwoCheckboxesTest - Page opened!
-15:22:59.158 [main] INFO  selectingTwoCheckboxesTest - Clicking Checkboxes link on Welcome Page
-15:23:00.125 [main] INFO  selectingTwoCheckboxesTest - Checking all unchecked checkboxes
-15:23:00.203 [main] INFO  selectingTwoCheckboxesTest - Verifying that all checkboxes are checked
-15:23:00.230 [main] INFO  webapp-test-project - [Test selectingTwoCheckboxesTest passed]
+15:23:00.232 [main] INFO  selectingTwoCheckboxesTest - Close driver
+15:23:00.837 [main] INFO  webapp-test-project - [ALL webapp-test-project FINISHED]
+16:12:05.334 [main] INFO  webapp-test-project - [TEST webapp-test-project STARTED]
+16:12:05.355 [main] INFO  verifyPDF - Create driver: chrome
+16:12:10.950 [main] INFO  webapp-test-project - [Starting verifyPDF]
+16:12:10.953 [main] INFO  verifyPDF - test
+16:12:11.005 [main] INFO  webapp-test-project - [Test verifyPDF passed]
+16:12:11.008 [main] INFO  verifyPDF - Close driver
