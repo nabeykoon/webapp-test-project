@@ -3,13 +3,18 @@ package com.webapp.uploadtests;
 import com.applitools.eyes.MatchLevel;
 import com.web.core.base.TestUtilities;
 import com.webapp.pages.FileUploaderPage;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.webapp.dataProviders.DataProviders;
 
 public class UploadTests extends TestUtilities {
 
-	@Test(dataProvider = "files", dataProviderClass = DataProviders.class)
+	@Test(dataProvider = "files", dataProviderClass = DataProviders.class, description = "Verify file upload tests using dataprovider")
+	@Severity(SeverityLevel.BLOCKER)
+	@Description("Verify file upload user scenario - Allure desc")
 	public void fileUploadTest(int no, String fileName) {
 		log.info("Starting fileUploadTest #" + no + " for " + fileName);
 

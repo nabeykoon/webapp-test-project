@@ -6,14 +6,19 @@ import com.web.core.base.TestUtilities;
 import com.webapp.pages.LoginPage;
 import com.webapp.pages.SecureAreaPage;
 import com.webapp.pages.WelcomePage;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.openqa.selenium.Cookie;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class PositiveLogInTests extends TestUtilities {
-    @Test
-    public void logInTest() {
 
+    @Test (description = "Verify positive login scenario")
+    @Severity (SeverityLevel.BLOCKER)
+    @Description("Verify positive login scenario - Allure desc")
+    public void logInTest() {
         // open main page
         WelcomePage welcomePage = new WelcomePage(getDriver (), log);
         log.info ("Thread id of logInTest " + Thread.currentThread().getId());

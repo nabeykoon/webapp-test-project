@@ -1,0 +1,5 @@
+02:34:57.401 [TestNG-PoolService-2] INFO  negativeLogInTest - Welcome page is opened.
+02:34:57.405 [TestNG-PoolService-2] INFO  negativeLogInTest - Clicking Form Authentication link on Welcome Page
+02:34:57.441 [TestNG-PoolService-4] INFO  negativeLogInTest-CH - [Test negativeLogInTest passed]
+02:34:57.446 [TestNG-PoolService-4] INFO  negativeLogInTest - Close driver
+02:34:57.470 [TestNG-PoolService-1] INFO  negativeLogInTest-CH - RP_MESSAGE#FILE#C:\Users\nabey\AppData\Local\Temp\screenshot13998154480793051219.png#Failure Screenshot

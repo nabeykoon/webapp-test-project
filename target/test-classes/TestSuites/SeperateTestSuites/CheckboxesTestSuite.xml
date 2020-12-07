@@ -2,7 +2,7 @@
 
 <suite name="CheckboxesTestSuite" verbose="1">
 	
-	<test name="CheckboxesTests">
+	<test name="SelectAllCheckboxesTest">
 		<classes>
 			<class name="com.webapp.checkboxespagetests.CheckboxesTests" />
 		</classes>

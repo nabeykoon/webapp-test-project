@@ -1,0 +1,8 @@
+16:48:43.970 [main] INFO  webapp-test-project - [TEST webapp-test-project STARTED]
+16:48:44.000 [main] INFO  logInTest - Create driver: chrome
+16:48:49.557 [main] INFO  webapp-test-project - [Starting logInTest]
+16:48:49.583 [main] INFO  logInTest - Thread id of logInTest 1
+16:48:49.583 [main] INFO  logInTest - Driver Hash code of logInTest 34419690
+16:48:49.583 [main] INFO  logInTest - Opening page: http://the-internet.herokuapp.com/
+16:48:52.504 [main] INFO  logInTest - Page opened!
+16:48:52.995 [main] INFO  logInTest - Welcome page is opened.

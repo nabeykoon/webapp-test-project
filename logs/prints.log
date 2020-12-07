@@ -1,3 +1,5 @@
-01:16:43.292 [main] INFO  webapp-test-project - [Test fileUploadTest passed]
-01:16:43.294 [main] INFO  fileUploadTest - Close driver
-01:16:43.881 [main] INFO  webapp-test-project - [ALL webapp-test-project FINISHED]
+02:34:57.474 [TestNG-PoolService-1] INFO  negativeLogInTest - Close driver
+02:34:58.834 [TestNG-PoolService-2] INFO  negativeLogInTest - Executing LogIn with username [incorrectUsername] and password [incorrectPassword]
+02:34:59.903 [TestNG-PoolService-2] INFO  negativeLogInTest-CH - [Test negativeLogInTest passed]
+02:34:59.905 [TestNG-PoolService-2] INFO  negativeLogInTest - Close driver
+02:35:00.517 [TestNG-tests-1] INFO  negativeLogInTest-CH - [ALL negativeLogInTest-CH FINISHED]
