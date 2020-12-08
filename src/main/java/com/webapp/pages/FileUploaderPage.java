@@ -1,6 +1,7 @@
 package com.webapp.pages;
 
 import com.web.core.base.BasePageObject;
+import io.qameta.allure.Step;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -25,12 +26,14 @@ public class FileUploaderPage extends BasePageObject {
 	}
 
 	/** Push Upload button */
+	@Step("Click on upload button")
 	public void pushUploadButton() {
 		log.info("Clicking on upload button");
 		click(uploadButtonLocator);
 	}
 
 	/** Select a file name */
+	@Step("Enter path of the file to upload")
 	public void selectFile(String fileName) {
 		log.info("Selecting '" + fileName + "' file from Files folder");
 		// Selecting file
@@ -40,6 +43,7 @@ public class FileUploaderPage extends BasePageObject {
 	}
 
 	/** Get names of uploaded files */
+	@Step("Retrieve name of the uploaded file")
 	public String getUploadedFilesNames() {
 		String names = find(uploadedFilesLocator).getText();
 		log.info("Uploaded files: " + names);
