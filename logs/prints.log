@@ -1,3 +1,2 @@
-02:23:23.444 [jersey-client-async-executor-0] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
-02:23:23.446 [jersey-client-async-executor-0] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
-02:23:28.455 [TestNG-tests-1] INFO  PositiveLogInTest123 - [ALL PositiveLogInTest123 FINISHED]
+01:03:11.765 [main] INFO  newWindowTest - Close driver
+01:03:12.354 [main] INFO  webapp-test-project - [ALL webapp-test-project FINISHED]

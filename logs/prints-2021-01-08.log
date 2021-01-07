@@ -1,0 +1,13 @@
+01:03:08.131 [main] INFO  newWindowTest - Page opened!
+01:03:08.137 [main] INFO  newWindowTest - Clicking Multiple Windows link on Welcome Page
+01:03:08.580 [main] INFO  newWindowTest - Clicking 'Click Here' link
+01:03:09.701 [main] INFO  newWindowTest - Looking for 'New Window' page
+01:03:11.754 [main] INFO  newWindowTest - <html><head>
+  <title>New Window</title>
+</head>
+
+<body><div class="example">
+  <h3>New Window</h3>
+</div>
+</body></html>
+01:03:11.756 [main] INFO  webapp-test-project - [Test newWindowTest passed]

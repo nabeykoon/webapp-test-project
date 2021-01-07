@@ -28,6 +28,7 @@ public class WindowsTests extends TestUtilities {
 		NewWindowPage newWindowPage = windowsPage.switchToNewWindowPage();
 
 		String pageSource = newWindowPage.getCurrentPageSource();
+		log.info (pageSource);
 
 		// Verification that new page contains expected text in source
 		Assert.assertTrue(pageSource.contains("New Window"), "New page source doesn't contain expected text");
